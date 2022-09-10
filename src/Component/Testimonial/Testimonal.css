@@ -1,0 +1,41 @@
+.textimonal__container{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.textimonal__content{
+    display: grid;
+    grid-template-columns: 1fr;
+
+}
+
+.testimonial{
+    background: var(--color-variant);
+    width: 35rem;
+    padding: 2rem;
+    border-radius: 2rem;
+}
+
+
+.textimonial__image{
+    width: 15%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.textimonial__image img{
+    border-radius: 50%;
+    border: 5px solid var(--color-primary);
+}
+
+.testimonial p{
+    font-size: 0.9rem;
+    margin-left: 4%;
+    text-align: center;
+}
+
+.testimonial b{
+    margin-left: 40%;
+}

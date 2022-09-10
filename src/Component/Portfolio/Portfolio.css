@@ -47,7 +47,17 @@ img:hover{
     transform: scale(1.1);
 }
 
+@media screen and (max-width: 1030px) {
+    .portfolio__container{
+        grid-template-columns: 1fr 1fr;
+    }
 
+    .portfolio__item-image img{
+        /* margin-left: 1.5rem; */
+        width: 100%;
+        margin: 0 auto;
+    }
+}
 
 @media screen and (max-width: 1020px) {
     .portfolio__container{

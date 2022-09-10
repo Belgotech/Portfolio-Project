@@ -77,7 +77,7 @@ const Service = () => {
             </li>
             <li>
               <BiCheck className="service__list-icon"></BiCheck>
-              <p>Easily Understanable Content <br /> That Passes The Supposed Information</p>{" "}
+              <p>Easily Understanable Content That Passes The Supposed Information</p>{" "}
             </li>
             <li>
               <BiCheck className="service__list-icon"></BiCheck>

@@ -46,6 +46,13 @@ h4{
     color: var(--color-primary);
 }
 
+
+@media screen and (max-width: 1035px) {
+    .experience__container{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
 @media screen and (max-width: 1020px) {
     .experience__container{
         grid-template-columns: 1fr;
