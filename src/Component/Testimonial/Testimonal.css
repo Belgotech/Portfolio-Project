@@ -39,3 +39,14 @@
 .testimonial b{
     margin-left: 40%;
 }
+
+
+  @media screen and (max-width: 600px) {
+    .testimonial{
+        width: 100%;
+    }
+
+    .testimonial b{
+        margin-left: 32%;
+    }
+  }

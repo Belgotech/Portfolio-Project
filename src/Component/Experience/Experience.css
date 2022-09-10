@@ -74,8 +74,9 @@ h4{
         gap: 1rem;
     }
 
-    .experience__container >{
+    .experience__container > div{
         width: 100%;
         padding: 2rem 1rem;
     }
+
   }
