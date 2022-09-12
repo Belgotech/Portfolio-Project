@@ -27,10 +27,10 @@ const Contact = () => {
             </div>
 
             <div className="contact__forms">
-                <form action="#">
+                <form action="#" className='form'>
                     <input type="text" placeholder='Your Full NAme'/>
                     <input type="text" placeholder='Your Email'/>
-                    <textarea name="Your Message" id="" cols="40" rows="10" placeholder='Your Message'></textarea>
+                    <textarea name="Your Message" id="" cols="40" rows="8" placeholder='Your Message'></textarea>
                 </form>
                 <a href="#" className='btn btn-primary'>Send Message</a>
             </div>

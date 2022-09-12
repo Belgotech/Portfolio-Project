@@ -60,7 +60,7 @@ const data = [
 
 const Portfolio = () => {
   return (
-    <section id="portfolio">
+    <section id="Portfolio">
       <h5>Some OF My Works</h5>
       <h2>My Portfolio</h2>
 
