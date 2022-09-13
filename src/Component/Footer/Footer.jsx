@@ -14,7 +14,7 @@ const Footer = () => {
                 <li><a href="#Service"> Service</a></li>
                 <li><a href="#Portfolio"> Portfolio</a></li>
                 <li><a href="#Textimonial"> Testimonials</a></li>
-                <li><a href="#Contact"> Contact</a></li>
+                <li><a href="#"> Contact</a></li>
                 
             </ul>
             <a href="https//:linkedin.com" ><IoLogoTwitter /></a>
