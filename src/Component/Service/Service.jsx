@@ -18,7 +18,7 @@ const Service = () => {
           <ul className="service__list">
             <li>
               <BiCheck className="service__list-icon"></BiCheck>
-              <p>Reponsive Web Pages</p>{" "}
+              <p>Responsive Web Pages</p>{" "}
             </li>
             <li>
               <BiCheck className="service__list-icon"></BiCheck>
@@ -44,7 +44,7 @@ const Service = () => {
           <ul className="service__list">
             <li>
               <BiCheck className="service__list-icon"></BiCheck>
-              <p>Reponsive Web Pages</p>{" "}
+              <p>Responsive Web Pages</p>{" "}
             </li>
             <li>
               <BiCheck className="service__list-icon"></BiCheck>
