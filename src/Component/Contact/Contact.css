@@ -58,6 +58,7 @@
     border-radius: 0.5rem;
     border: 2px solid rgba(124, 123, 123, 0.6);
     background: transparent;
+    color: var(--white);
 }
 
 .form > textarea{
@@ -66,6 +67,7 @@
     border-radius: 0.5rem;
     border: 2px solid rgba(124, 123, 123, 0.6);
     background: transparent;
+    color: var(--white);
 }
 
 

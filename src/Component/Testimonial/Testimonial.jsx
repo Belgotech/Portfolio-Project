@@ -6,7 +6,6 @@ import IMG3 from "../../assets/avatar3.jpg";
 import {  Pagination } from 'swiper';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
-
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/pagination';
