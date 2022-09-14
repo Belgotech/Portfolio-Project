@@ -1,6 +1,23 @@
 import './Contact.css';
+import React, { useRef } from 'react';
+import emailjs from 'emailjs-com'
 
 const Contact = () => {
+    const form = useRef();
+    const sendEmail = (e) => {
+        e.preventDefault();
+    
+        emailjs.sendForm('service_8algnex', 'template_okm1g28', form.current, 'JNGr6vRNsqqCnj7YV')
+
+            e.target.reset()
+
+          .then((result) => {
+              console.log(result.text);
+          }, (error) => {
+              console.log(error.text);
+          });
+      };
+
     return (
        <section id='Contact'>
         <h5>Get In Touch</h5>
@@ -27,12 +44,12 @@ const Contact = () => {
             </div>
 
             <div className="contact__forms">
-                <form action="#" className='form'>
-                    <input type="text" placeholder='Your Full NAme'/>
-                    <input type="text" placeholder='Your Email'/>
-                    <textarea name="Your Message" id="" cols="40" rows="8" placeholder='Your Message'></textarea>
+                <form ref={form} onSubmit={sendEmail} className='form'>
+                    <input type="text" name='name' placeholder='Your Full NAme' required/>
+                    <input type="text" name='email' placeholder='Your Email' required/>
+                    <textarea name='message' cols="40" rows="8" placeholder='Your Message'></textarea>
+                    <button type='submit' className='btn btn-primary'>Send Message</button>
                 </form>
-                <a href="#" className='btn btn-primary'>Send Message</a>
             </div>
         </div>
        </section>

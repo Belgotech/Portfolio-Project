@@ -1,27 +1,22 @@
-.textimonal__container{
+.container.textimonal__container{
     display: grid;
-    align-items: center;
-    justify-content: center;
-}
-
-.textimonal__content{
-    display: grid;
-    grid-template-columns: 1fr;
-    margin-bottom: 1rem;    
-
+    padding-bottom: 4rem;
 }
 
 .testimonial{
     background: var(--color-variant);
-    width: 35rem;
     padding: 2rem;
     border-radius: 2rem;
-
+    transition: var(--transition);
 }
 
+.testimonial:hover{
+    background: transparent;
+    border: 1px solid var(--color-variant);
+}
 
 .textimonial__image{
-    width: 15%;
+    width: 10%;
     margin-left: auto;
     margin-right: auto;
 
@@ -39,7 +34,10 @@
 }
 
 .testimonial b{
-    margin-left: 40%;
+    margin-left: 45%;
+}
+.swiper-pagination .swiper-pagination-clickable .swiper-pagination-bullets .swiper-pagination-horizontal{
+    background: var(--color-primary);
 }
 
 
@@ -48,7 +46,10 @@
         width: 100%;
     }
 
+    .testimonial img{
+        width: 4rem;
+    }
     .testimonial b{
-        margin-left: 32%;
+        margin-left: 37%;
     }
   }
