@@ -17,8 +17,8 @@ const Footer = () => {
                 <li><a href="#"> Contact</a></li>
                 
             </ul>
-            <a href="https//:linkedin.com" ><IoLogoTwitter /></a>
-            <a href="https//:linkedin.com" ><BsFacebook /></a>
+            <a href="https//:twitter.com" ><IoLogoTwitter /></a>
+            <a href="https://m.me/slendid.king" ><BsFacebook /></a>
             <p>BELOVEDOBIORA.All right reserved</p>
         </footer>
     )

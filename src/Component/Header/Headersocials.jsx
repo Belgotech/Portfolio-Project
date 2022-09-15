@@ -8,10 +8,10 @@ const Headersocials = () => {
     return (
         <div>
             <div className="header__socials">
-                <a href="https//:linkedin.com" > <AiFillLinkedin /></a>
-                <a href="https://github.com/Belgotech" ><FaGithubSquare /></a>
-                <a href="https//:linkedin.com" ><IoLogoTwitter /></a>
-                <a href="https//:linkedin.com" ><BsFacebook /></a>
+                <a href="https//:linkedin.com" target="_blank"> <AiFillLinkedin /></a>
+                <a href="https://github.com/Belgotech" target="_blank"><FaGithubSquare /></a>
+                <a href="https//:linkedin.com" target="_blank"><IoLogoTwitter /></a>
+                <a href="https://m.me/slendid.king" target="_blank"><BsFacebook /></a>
             </div>
         </div>
     )
