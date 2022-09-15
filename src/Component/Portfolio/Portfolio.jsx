@@ -10,7 +10,7 @@ const data = [
   {
     id: 1,
     Image: IMG1,
-    title: "Once I Want To Put A Project",
+    title: "Project I have Done",
     demo: "https://github.com",
     github: "https://github.com",
   },
@@ -18,7 +18,7 @@ const data = [
   {
     id: 2,
     Image: IMG2,
-    title: "Comment That I Will Change ",
+    title: "Project I have Done ",
     demo: "https://github.com",
     github: "https://github.com",
   },
@@ -26,7 +26,7 @@ const data = [
   {
     id: 3,
     Image: IMG3,
-    title: " To Put A Project",
+    title: " Project I have Done",
     demo: "https://github.com",
     github: "https://github.com",
   },
@@ -34,7 +34,7 @@ const data = [
   {
     id: 4,
     Image: IMG4,
-    title: "Once I Want To Put A Project",
+    title: "Project I have Done",
     demo: "https://github.com",
     github: "https://github.com",
   },
@@ -42,7 +42,7 @@ const data = [
   {
     id: 5,
     Image: IMG5,
-    title: "Comment That I Will Change",
+    title: "Project I have Done",
     demo: "https://github.com",
     github: "https://github.com",
   },
@@ -50,7 +50,7 @@ const data = [
   {
     id: 6,
     Image: IMG6,
-    title: " Once I Want To Put A Project",
+    title: "Project I have Done",
     demo: "https://github.com",
     github: "https://github.com",
   },

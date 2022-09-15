@@ -16,7 +16,7 @@ nav{
 
 nav a{
     background: transparent;
-    padding: 0.9rem;
+    padding: 0.7rem;
     border-radius: 50%;
     display: flex;
     color: var(--color--bg);
