@@ -1,9 +1,9 @@
 import './Contact.css';
 import React, { useRef } from 'react';
 import emailjs from 'emailjs-com'
+import { AiOutlineMail } from 'react-icons/ai';
+// import { BsWhatsapp } from 'react-icons/bs';
 import { BsWhatsapp } from 'react-icons/bs';
-// import { BsWhatsapp } from 'react-icons/bs';
-// import { BsWhatsapp } from 'react-icons/bs';
 
 const Contact = () => {
     const form = useRef();
@@ -30,7 +30,7 @@ const Contact = () => {
 
             <div className="contact__socials">
                 <article className="socials">
-                    {/* < /> */}
+                    <AiOutlineMail className='socials__icon'/>
                     <h3>Eamail</h3>
                     <h5>Belovedobiora2002@gmail.com</h5>
                     <a href="mailto:belovedobiora2002@gmail.com" target="_blank">Send A Message</a>
@@ -42,7 +42,7 @@ const Contact = () => {
                     <a href="https://m.me/slendid.king" target="_blank">Send A Message</a>
                 </article>
                 <article className="socials">
-                    <BsWhatsapp />
+                    <BsWhatsapp className='socials__icon'/>
                     <h3>Whatsapp</h3>
                     <h5>+2349064293424</h5>
                     <a href="https://api.whatsapp.com/send?phone=+2349064293424" target="_blank">Send A Message</a>
